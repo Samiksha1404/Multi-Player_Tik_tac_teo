@@ -1,0 +1,209 @@
+ .App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../public/assest/back4.jpg');
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+  
+  
+  .login,
+  .signUp {
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  
+  .login input,
+  .signUp input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    color: #7274e7;
+    box-shadow: -5px 8px 4px;
+    font-size: 15px;
+  }
+  
+  .login button,
+  .signUp button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 320px;
+    height: 35px;
+    cursor: pointer;
+    color: #7274e7;
+    box-shadow: -5px 8px 4px;
+    font-size: 15px;
+    
+  }
+  
+  .login label,
+  .signUp label {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .board {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(144 164 204);
+    border: 5px solid #181f2a;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 25px;
+  }
+  
+  .row {
+    flex: 33%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .square {
+    flex: 33%;
+    height: 100%;
+    border: 5px solid #181f2a;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .square:active {
+    background-color: lightgray;
+  }
+  
+  h4 {
+    font-family: monospace;
+    color: white;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    padding-bottom: 25px;
+    margin: auto;
+  }
+  .joinGame{
+    display: block;
+   
+  }
+  .joinGame input {
+    padding: 10px;
+    margin-right: 40px;
+    border: 3px solid #30344e;
+    border-radius: 4px;
+    width: 220px;
+    height: 50px;
+    color: #1b1d9b;
+    box-shadow: 5px 12px 4px;
+    font-size: 15px;
+  }
+  .joinGame button {
+    padding: 10px;
+    border: 3px solid #30344e;
+    border-radius: 4px;
+    width: 220px;
+    height: 50px;
+    color: #4f9a64;
+    box-shadow: 5px 12px 4px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  .logout{
+    padding: 10px;
+    border: 3px solid #30344e;
+    border-radius: 4px;
+    width: 220px;
+    height: 50px;
+    color: #d939dc;
+    box-shadow: 5px 12px 4px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 20px;
+    margin-top: 91px;
+  } 
+
+  
+  .waiting{color: white;
+  font-size: larger;
+  display: block;
+  /* margin: auto; */
+  padding-top: 71px;
+  padding: -4px 2px;
+  animation: initial;
+  animation-delay: inherit;
+  }
+
+  .str-chat__list {
+    background-color: #2f75dc;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 5px;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-top: 16px;
+  }
+  .str-chat__input-flat {
+    width: 310px;
+    height: 200px;
+    background-color: #e49f5b;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.str-chat__list li {
+    list-style-type: none;
+    background-color: #e4bee4;
+    margin-top: 5px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.str-chat__input-flat-wrapper textarea {
+    resize: none;
+    width: 200px;
+    height: 90px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 0 4px #e9b287;
+    padding: 10px;
+    font-size: 15px;
+}
+
+element.style {
+    padding: 11px 8px;
+    margin: 12px 3px;
+    border-radius: 11px;
+    border: solid #d8b16a;
+}
+.leavegame{
+        padding: 10px;
+        border: 3px solid #30344e;
+        border-radius: 4px;
+        width: 220px;
+        height: 50px;
+        color: #d939dc;
+        box-shadow: 5px 12px 4px;
+        font-size: 15px;
+        cursor: pointer;
+        margin: 20px;
+        margin-top: 91px;
+      }
